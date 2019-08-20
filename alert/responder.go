@@ -10,10 +10,10 @@ const (
 )
 
 type Responder struct {
-	Type     ResponderType `json:"type, omitempty"`
+	Type     ResponderType `json:"type,omitempty"`
 	Name     string        `json:"name,omitempty"`
 	Id       string        `json:"id,omitempty"`
-	Username string        `json:"username, omitempty"`
+	Username string        `json:"username,omitempty"`
 }
 
 type Team struct {
